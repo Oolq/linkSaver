@@ -11,11 +11,26 @@
 
 <body>
     <nav>
-
+        <div class="container" id="navContainer">
+            <h1 class="nav-header">Link Saver</h1>
+            <a id="addBtn">+</a>
+        </div>
     </nav>
     <div class="container">
         <div class="panel" id="addLinkPanel">
+            <h3 class="panel-heading">Add Link</h3>
+            <form action="" id="addLinkForm">
+                <input type="text" name="title" id="linkTitle" class="form-control" placeholder="Title">
+                <input type="text" name="url" id="linkUrl" class="form-control" placeholder="URL">
+                <input type="text" name="category" id="linkCategory" class="form-control"
+                    placeholder="Categories (comma separated)">
+                <div id="addedCategories">
 
+                </div>
+
+                <input type="submit" value="Submit" id="submitbutton">
+                <input type="submit" value="Cancel" id="cancelbutton">
+            </form>
         </div>
         <div id="linksList">
 
