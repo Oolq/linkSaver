@@ -16,5 +16,5 @@ linkCategory.addEventListener('keydown', function (event) {
 })
 
 function displayLinkCategories() {
-    console.log("display link");
+    console.log("Displaying link Categories");
 }
