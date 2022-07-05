@@ -1,4 +1,5 @@
 const linkCategory = document.querySelector("#linkCategory");
+const submitButton = document.querySelector("#submitbutton");
 
 let linkCategories = [];
 
@@ -18,3 +19,16 @@ linkCategory.addEventListener('keydown', function (event) {
 function displayLinkCategories() {
     console.log("Displaying link Categories");
 }
+
+
+console.log(this);
+
+submitButton.addEventListener('click', function (event){
+    console.log("Submit pressed");
+
+    console.log(this);
+
+    event.preventDefault();
+});
+
+
